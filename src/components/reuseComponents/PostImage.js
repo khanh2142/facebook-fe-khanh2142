@@ -134,7 +134,7 @@ const PostImage = (props) => {
           style={{ backgroundColor: "rgba(255,255,255,0.5)" }}
         />
       ) : props.content && !props.image ? (
-        <div className="postImage__content" style={{ fontSize: "40px" }}>
+        <div className="postImage__content" style={{ fontSize: "20px" }}>
           {props.content}
         </div>
       ) : (
