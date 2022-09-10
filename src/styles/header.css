@@ -1,0 +1,53 @@
+.header_container {
+  height: 56px;
+  background-color: var(--header-color);
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.header_container::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  bottom: 0;
+}
+
+.header_route {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 100%;
+}
+
+.header_route-item i {
+  font-size: 20px;
+}
+
+.user_menu {
+  gap: 2px;
+}
+
+.user_menu-button {
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--text-color);
+  margin: 0 3px;
+}
+
+.user_menu-button i {
+  font-size: 18px;
+}
+
+.user_menu-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+body {
+  padding-top: 56px;
+}

@@ -1,0 +1,51 @@
+.marketplace__container {
+  padding: 10px 25px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+}
+
+.marketplace__container-desc {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.marketplace__container-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.marketplace__container-location {
+  display: flex;
+  align-items: center;
+  color: #1c79f2;
+  cursor: pointer;
+}
+
+.location-icon {
+  margin-right: 10px;
+}
+
+.marketplace__container-location:hover.marketplace__container-location span {
+  text-decoration: underline;
+}
+
+.marketplace__container-location span {
+  display: flex;
+  align-items: center;
+}
+
+.marketplace__container-location span i {
+  font-size: 8px;
+  margin: 0 10px;
+}
+
+.marketplace__item {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}

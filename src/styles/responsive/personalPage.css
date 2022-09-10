@@ -1,0 +1,145 @@
+@media only screen and (max-width: 764px) {
+  .personalPage__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 !important;
+  }
+
+  .personalPage__container-backgroundImage {
+    height: 250px;
+    margin-bottom: 250px;
+  }
+
+  .personalPage__container-backgroundImageChanging {
+    font-size: 12px !important;
+    width: 150px;
+    top: 20px !important;
+    bottom: unset;
+  }
+
+  .personalPage__container-backgroundImageChanging span {
+    font-size: 12px;
+  }
+
+  .personalPage__container-about {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    flex-direction: column;
+    left: 0;
+    height: 300px;
+    top: 250px;
+    align-items: center;
+  }
+
+  .personalPage__about-avatarContainer {
+    background-color: transparent;
+  }
+
+  .personalPage__about-avatar {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border: 5px solid #2374e1;
+  }
+
+  .personalPage__about-container {
+    width: 100%;
+    align-items: center;
+    padding: 0 !important;
+  }
+  .personalPage__about-info {
+    font-size: 26px;
+  }
+
+  .personalPage__about-name {
+    font-size: 25px;
+  }
+
+  .personalPage__about-friendQuanity {
+    display: none;
+  }
+
+  .personalPage__about-friendContainer {
+    width: 100%;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .personalPage__about-friendPreview {
+    display: none;
+  }
+
+  .personalPage__about-setting {
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  .personalPage__about-setting div {
+    border-radius: 5px;
+  }
+
+  .personalPage__about-menu {
+    display: none;
+  }
+
+  .personalPage__main-container {
+    width: 100%;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  .personalPage__aboutUser-item {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .personalPage__content-container {
+    width: 100%;
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+    padding-bottom: 60px;
+  }
+
+  .postmenu__container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .item20 {
+    font-size: 13px;
+  }
+
+  .postmenu__item {
+    font-size: 13px;
+  }
+
+  .postImage {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 992px) {
+  .personalPage__about-friendContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .personalPage__about-friend {
+    width: 30px;
+    height: 30px;
+  }
+
+  .personalPage__about-allFriend {
+    width: 30px;
+    height: 30px;
+  }
+
+  .personalPage__about-setting {
+    font-size: 12px;
+  }
+
+  .personalPage__about-menu {
+    margin-top: 180px;
+  }
+}

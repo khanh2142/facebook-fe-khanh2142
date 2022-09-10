@@ -1,0 +1,29 @@
+.hm_fix {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.hm_fix p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+.hm_fix p {
+  font-size: 16px;
+  color: #d8dade;
+  font-weight: 600;
+}
+
+.hm_fix span {
+  font-size: 12px;
+  color: #aeb1b5;
+}
+
+.rightOpen {
+  position: absolute;
+  right: 10px;
+  color: #d0d2d6;
+}

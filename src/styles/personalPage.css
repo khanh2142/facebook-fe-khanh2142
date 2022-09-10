@@ -1,0 +1,454 @@
+.personalPage {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+  padding-bottom: 500px;
+}
+
+.personalPage__container {
+  background: linear-gradient(
+    to top,
+    #242526,
+    rgba(36, 37, 38, 0.9),
+    rgba(36, 37, 38, 0.7),
+    rgba(36, 37, 38, 0.4),
+    rgba(36, 37, 38, 0)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.personalPage__container-backgroundImage {
+  width: 100%;
+  height: 400px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+
+.personalPage__container-backgroundImageChanging {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 200px;
+  padding: 10px;
+  border-radius: 7px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid transparent;
+}
+
+.personalPage__container-backgroundImageChanging:hover {
+  border-color: #000;
+}
+
+.personalPage__container-backgroundImageChanging i {
+  margin-right: 10px;
+}
+
+.personalPage__container-backgroundImageChanging span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.personalPage__container-about {
+  padding-left: 200px;
+  padding-right: 200px;
+  width: 100%;
+  height: 200px;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 400px;
+  left: 0;
+  background-color: transparent;
+  display: flex;
+}
+
+.personalPage__about-avatarContainer {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #2374e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.personalPage__about-avatar {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.personalPage__about-uploadImage {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #3a3b3c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 10px;
+  right: 25px;
+}
+
+.personalPage__about-uploadImage:hover {
+  background-color: rgba(58, 59, 60, 0.7);
+}
+
+.personalPage__about-uploadImage i {
+  color: #fff;
+}
+
+.personalPage__about-container {
+  height: 200px;
+  width: calc(100% - 200px);
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 20px;
+}
+
+.personalPage__about-info {
+  display: flex;
+  align-items: baseline;
+}
+
+.personalPage__about-name {
+  font-size: 30px;
+  font-weight: 700;
+  color: #e4e6eb;
+}
+
+.personalPage__about-nickname {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #e4e6eb;
+  font-weight: 600;
+}
+
+.personalPage__about-friendContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.personalPage__about-friendQuanity {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.personalPage__about-setting {
+  display: flex;
+  gap: 10px;
+  min-height: 30px;
+}
+
+.personalPage__about-addNews {
+  height: 100%;
+  background-color: #2374e1;
+  padding: 0 10px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.personalPage__about-addNews:hover {
+  background-color: rgba(35, 116, 225, 0.5);
+}
+
+.personalPage__about-edit {
+  height: 100%;
+  padding: 0 10px;
+  background-color: #3a3b3c;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  color: #fff !important;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.personalPage__about-edit:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.personalPage__about-friendPreview {
+  display: flex;
+  color: #fff !important;
+}
+
+.personalPage__about-friend {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.personalPage__about-allFriend {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a3b3c;
+}
+
+.personalPage__about-allFriend:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.personalPage__about-menu {
+  padding: 0 100px;
+  position: relative;
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.personalPage__about-list {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.personalPage__about-btn {
+  display: flex;
+}
+
+.personalPage__about-more {
+  width: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #3a3b3c;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.personalPage__about-more:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.personalPage__main-container {
+  margin-top: 10px;
+  color: #fff;
+  padding: 0 100px;
+}
+
+.personalPage__aboutUser {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.personalPage__aboutUser-item {
+  padding: 5px 15px 15px 15px;
+  background: #242526;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.personalPage__aboutUser-description {
+  text-align: center;
+}
+
+.personalPage__aboutUser-hotNews {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.personalPage__hotNews-item {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  cursor: pointer;
+  align-items: center;
+}
+
+.personalPage__hotNews-image {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.personalPage__hotNews-item:hover .personalPage__hotNews-image {
+  transform: scale(1.1);
+  transition: 0.1s linear;
+}
+
+.personalPage__hotNews-content {
+  font-size: 12px;
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+.personalPage__image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.personalPage__image-item {
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  background-position: 50% 50%;
+  cursor: pointer;
+}
+
+.personalPage__image-item:hover {
+  transform: scale(1.05);
+}
+
+.personalPage__friend-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 15px 5px;
+}
+
+.personalPage__friend-item {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+.personalPage__friend-item:hover {
+  color: #fff;
+}
+
+.personalPage__friend-item:hover .personalPage__friend-avatar {
+  transform: scale(1.05);
+}
+.personalPage__friend-avatar {
+  width: 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 5px;
+}
+
+.personalPage__friend-name {
+  font-weight: 600;
+}
+
+.personalPage__event-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 10px;
+}
+
+.personalPage__event-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.personalPage__event-item:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.personalPage__event-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #2374e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personalPage__event-title {
+  font-weight: 600;
+}
+
+.personalPage__event-time {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.personalPage__know-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 10px;
+}
+
+.personalPage__know-item {
+  width: 100%;
+  height: 100px;
+  padding: 0 5px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.personalPage__know-item:hover {
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 25%,
+    rgba(252, 70, 107, 1) 50%
+  );
+}
+
+.personalPage__content-container {
+  padding: 0 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}

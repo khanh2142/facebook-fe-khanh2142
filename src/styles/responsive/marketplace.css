@@ -1,0 +1,36 @@
+@media only screen and (max-width: 992px) {
+  .marketplace__menu {
+    display: none;
+  }
+
+  .marketplace__container {
+    padding: 10px;
+    padding-bottom: 60px;
+  }
+
+  .marketplace__item {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .item16 {
+    max-width: 300px;
+    width: auto;
+    height: 270px;
+  }
+
+  .item16-image {
+    height: 150px;
+  }
+
+  .marketplace__container-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .marketplace__container-desc {
+    font-size: 14px;
+  }
+}

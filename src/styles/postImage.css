@@ -1,0 +1,151 @@
+.postImage {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: #fff;
+  background-color: #242526;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.postImage__user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.postImage__user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.postImage__user-info {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.postImage__user-name {
+  font-weight: 600;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.postImage__user-name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.postImage__user-time {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none !important;
+}
+
+.postImage__user-more {
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.postImage__user-more:hover {
+  background-color: #3a3b3c;
+}
+
+.postImage__content {
+  padding: 5px 0;
+}
+
+.postImage__image {
+  width: calc(100% + 20px);
+  max-height: 600px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 -10px;
+  background-position: 35% 35%;
+}
+
+.postImage__info {
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.postImage__info-reaction {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.postImage__info-like {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1198f5;
+}
+
+.postImage__info-like i {
+  font-size: 12px;
+}
+
+.postImage__button {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.postImage__button-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+
+.postImage__button-item:hover {
+  background-color: #3a3b3c;
+}
+
+.postImage__more {
+  background-color: #3a3b3c;
+  padding: 10px;
+  position: absolute;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  right: 0;
+  top: 50px;
+  z-index: 100;
+}
+
+.postImage__more-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.postImage__more-item:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}

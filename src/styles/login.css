@@ -1,0 +1,81 @@
+.loginContainer {
+  position: fixed;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoContainer h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #1877f2;
+}
+
+.loginForm {
+  padding: 20px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  align-items: center;
+}
+
+.loginForm input,
+button {
+  margin: 10px 0;
+  height: 50px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.loginForm-input {
+  padding-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.loginForm-input:focus {
+  outline-color: #1877f2 !important;
+}
+
+.loginForm-submit {
+  background-color: #1877f2;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid #fff;
+}
+
+.loginForm-submit:hover {
+  background-color: burlywood;
+  transition: 0.3s linear;
+}
+
+.loginForm-signup {
+  margin-top: 10px;
+  width: 250px;
+  background-color: #42b72a;
+  text-decoration: none;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.loginForm-reset {
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.loginForm-signup:hover {
+  color: #fff;
+  background-color: violet;
+}

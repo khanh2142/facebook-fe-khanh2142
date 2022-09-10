@@ -1,0 +1,147 @@
+.friend_scroll {
+  height: 700px;
+  overflow-y: scroll;
+}
+
+.adv_container {
+  margin-top: 10px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.adv_container-title {
+  color: var(--text-color);
+  padding-left: 5px;
+}
+
+.friend_container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.friend_title-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend_title-content {
+  margin-left: 5px;
+  color: var(--text-color);
+}
+
+.friend_title-manage {
+  display: flex;
+}
+
+.friend_title-btn {
+  cursor: pointer;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  margin: 0 10px;
+}
+
+.friend_title-btn:last-child {
+  margin: 0 0 0 10px;
+}
+
+.friend_title-btn::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: none;
+}
+
+.friend_title-btn:hover.friend_title-btn::after {
+  display: block;
+}
+
+.friend_container-menu {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow-x: visible;
+}
+
+.friend_container-item {
+  padding: 7px 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+}
+
+.friend_container-item:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.friend_container-avatar {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.friend_container-name {
+  color: var(--text-color-second);
+  margin-left: 10px;
+}
+
+.friend_container-status {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #31a24c;
+  border: 2px solid #000;
+}
+
+.friend_container-item:hover > .friend__container-detail {
+  display: flex;
+}
+
+.friend__container-detail {
+  position: absolute;
+  color: #fff;
+  background-color: #242526;
+  width: 300px;
+  border-radius: 10px;
+  height: 100px;
+  left: 0px;
+  top: -100px;
+  display: none;
+  z-index: 99999;
+  padding: 5px 10px;
+  align-items: center;
+  gap: 10px;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  text-decoration: none;
+}
+
+.friend__container-detail:hover {
+  background-color: #3a3b3c;
+  color: #fff;
+}
+
+.friend__detail-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}

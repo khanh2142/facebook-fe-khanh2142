@@ -1,0 +1,11 @@
+.news__container-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3px;
+  overflow: hidden;
+}
+
+.news_container {
+  height: 198px;
+  padding: 0 4px !important;
+}

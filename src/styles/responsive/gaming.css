@@ -1,0 +1,52 @@
+@media only screen and (max-width: 992px) {
+  .gaming__col {
+    display: none;
+  }
+
+  .gamingContainer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .postVideo__user-info {
+    font-size: 12px !important;
+  }
+
+  .postVideo__user-name span {
+    display: none;
+  }
+
+  .postVideo__user-game {
+    display: none;
+  }
+
+  .postVideo__video {
+    font-size: 12px;
+  }
+
+  .postVideo__video-progress {
+    width: 40% !important;
+  }
+
+  .postVideo__video-function i {
+    font-size: 10px;
+  }
+
+  .postVideo__about {
+    font-size: 12px;
+  }
+
+  .postVideo__button {
+    font-size: 12px;
+  }
+
+  .postVideo__typeComment {
+    font-size: 12px;
+  }
+
+  .postVideo__more {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,23 @@
+@media only screen and (max-width: 992px) {
+  .header_container {
+    justify-content: space-between;
+  }
+  .search {
+    display: none !important;
+  }
+
+  .userRoute {
+    display: none !important;
+  }
+
+  .circleButton {
+    display: none !important;
+  }
+
+  .circleButton-mobile {
+    display: flex !important;
+    width: 40px !important;
+    height: 40px !important;
+    overflow: visible;
+  }
+}

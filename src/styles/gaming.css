@@ -1,0 +1,8 @@
+.gamingContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 50px;
+  gap: 20px;
+  position: absolute;
+  right: 0;
+}

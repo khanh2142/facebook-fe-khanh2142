@@ -1,0 +1,100 @@
+.hm_title {
+  width: 100%;
+}
+
+.hm_title p {
+  font-size: 26px;
+  font-weight: 700;
+  color: #e4e6eb;
+}
+
+.hm_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hm_item {
+  background-color: #242526;
+  width: 100px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.hm_item_1 {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  max-height: 600px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.hm_item_2 {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hm_search-container {
+  padding: 5px 10px;
+  border-radius: 25px;
+  align-self: center;
+  width: 350px;
+  background-color: #3a3b3c;
+  display: flex;
+  align-items: center;
+}
+
+.hm_search-container i {
+  color: #7e848c;
+}
+
+.hm_search-input {
+  margin-left: 5px;
+  background-color: transparent;
+  border: transparent;
+  color: #7e848c;
+}
+
+.hm_search-input:focus {
+  outline: none;
+}
+
+.hm_box2-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.hm_box2-item {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+  align-items: center;
+  position: relative;
+}
+
+.hm_box2-item:hover {
+  background-color: #3a3b3c;
+}
+
+.hm_box2-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4f5051;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e4e6ea;
+}
+
+.hm_box2-content {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #d0d2d6;
+  width: calc(100% - 49px);
+}

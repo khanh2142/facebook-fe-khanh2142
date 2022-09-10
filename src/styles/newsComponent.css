@@ -1,0 +1,33 @@
+.newsComponent {
+  color: #fff;
+}
+
+.newsComponent__list {
+  background-color: #242526;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 750px;
+  padding-bottom: 50px;
+  position: fixed;
+  color: #fff;
+}
+
+.newsComponent__list-title {
+  padding: 8px 0;
+}
+
+.newsComponent__preview {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  top: 380px;
+  flex-direction: column;
+}
+
+.newsComponent__preview::-webkit-scrollbar {
+  display: none;
+}
