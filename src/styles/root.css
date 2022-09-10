@@ -385,7 +385,7 @@
 
 .newsItem-all {
   position: absolute;
-  right: -18px;
+  right: 5px;
   top: calc(50% - 18px);
   height: 36px;
   width: 36px;
