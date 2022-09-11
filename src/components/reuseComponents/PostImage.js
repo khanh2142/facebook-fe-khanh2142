@@ -26,14 +26,14 @@ const PostImage = (props) => {
           setLoading(false);
         }, 1500);
       });
-  }, []);
+  }, [props.post_id]);
 
   useEffect(() => {
     const url = "https://fb-be.herokuapp.com/post/" + props.post_id;
     fetch(url)
       .then((res) => res.json())
       .then((result) => setData(result));
-  }, [click]);
+  }, [click, props.post_id]);
 
   function deletePost(id) {
     const url = "https://fb-be.herokuapp.com/post/delete/" + id;

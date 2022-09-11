@@ -80,9 +80,9 @@ const PersonalPage = (props) => {
       .catch((e) => console.log(e));
   };
 
-  const { news } = user;
+  const { news, images } = user;
 
-  const { images } = user;
+  console.log(user, data);
 
   return (
     <div className="personalPage__container">

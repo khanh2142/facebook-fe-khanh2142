@@ -50,7 +50,7 @@ const App = () => {
                   name="Jinx tí nị"
                   nickname="Powder"
                   friendQuanity="200"
-                  id="6262b359e271a673452a70d1"
+                  id="631ca031aa55491f0992a6fe"
                 />
               }
             ></Route>
